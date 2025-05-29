@@ -46,6 +46,12 @@ docker-compose up --build
 
 ---
 
+### 5. Swagger-документация
+
+Документация доступна по адресу:
+
+[http://localhost:8000/api/v1/docs/](http://localhost:8000/api/v1/docs/)
+
 ## Примеры запросов
 
 ### 1. Получить все книги
