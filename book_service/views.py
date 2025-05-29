@@ -34,7 +34,7 @@ class BookListCreateAPIView(APIView):
         author = request.query_params.get("author")
         books = Book.objects.all()
         if author:
-            books = books.filter(author__icontains=author)
+            books = books.filter(author__iexact=author)
         serializer = BookSerializer(books, many=True)
         return Response(serializer.data)
 
