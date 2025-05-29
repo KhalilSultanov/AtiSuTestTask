@@ -3,6 +3,7 @@ name = "ati-su-test-task"
 version = "0.1.0"
 description = ""
 authors = ["Khalil <h.sultanoff@yandex.ru>"]
+package-mode = false
 
 readme = "README.md"
 
